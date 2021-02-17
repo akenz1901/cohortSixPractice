@@ -3,9 +3,9 @@ public class Account1{
 	private String name;
 	private double balance;
 
-	public Account(String name, double balance){
+	public Account1(String name, double balance){
 	
-	akenz = name;
+	this.name = name;
 
 	if (balance > 0.0)
 	this.balance = balance;
@@ -26,7 +26,7 @@ public class Account1{
 
 	public void setName(String name){
 	
-	akenz = name;
+	name = name;
 
 	}
 	

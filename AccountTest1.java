@@ -2,8 +2,8 @@ public class AccountTest1{
 
 	public static void main(String... args){
 
-	Account firstAccount = new Account(" Michael", 70.00);
-	Account secondAccount = new Account("Chibuzor", 90.00);
+	Account1 firstAccount = new Account1(" Michael", 70.00);
+	Account1 secondAccount = new Account1("Chibuzor", 90.00);
 	
 	double depositAmount = 17.9;
 	firstAccount.deposit(depositAmount);
