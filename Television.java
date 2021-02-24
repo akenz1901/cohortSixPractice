@@ -7,7 +7,7 @@ public class Television{
 	private int defaultVolume;
 
 		public Television(String newProductName, int newProductYear, boolean isItOn, int newDefaultChannel, int newDefaultVolume, int increaseVolume){
-
+	
 		productName = newProductName;
 		
 		productYear = newProductYear;
