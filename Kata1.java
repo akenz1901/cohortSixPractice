@@ -27,9 +27,27 @@ public class Kata1{
 	return "F";
 	}
 	public boolean isEven(int isItEven){
-	if (isItEven %4 == 2)
+	if (isItEven %2 == 0)
 	return true;
 	else
 	return false;
 	}
+	
+	public boolean isPrimeNumber(int isItPrimeNumber){
+	Scanner collector = new Scanner(System.in);
+	System.out.print("Enter Number: ");
+	isItPrimeNumber = collector.nextInt();
+	int checkNumber = 2;
+	while (checkNumber < isItPrimeNumber){
+	
+	if (isItPrimeNumber % checkNumber == 0){
+	return false;
+	}
+	
+	checkNumber++;
+	}
+	return true;
+		
+	}
+
 }
