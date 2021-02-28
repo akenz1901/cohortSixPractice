@@ -5,5 +5,5 @@ First Step will declare and initialize of counter.
 Second Step Gives user list of choices.
 Third Step is for Loop Continuation.
 Fourth Step prompts the user to Select Choices from the Second Step.
-Fifth Step Switch conditional statement will select and print result for User.
+Fifth Step Switch conditional statement will check and authenticate user input.
 Seveth Step is the decrement of the loop.
